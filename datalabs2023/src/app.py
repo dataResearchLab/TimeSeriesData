@@ -1,12 +1,12 @@
 '''
- # @ Create Time: 2023-05-21 21:04:37.868839
+ # @ Create Time: 2023-05-21 21:09:50.932882
 '''
 
 from dash import Dash, html, dcc
 import plotly.express as px
 import pandas as pd
 
-app = Dash(__name__, title="plot")
+app = Dash(__name__, title="datalabs2023")
 
 # Declare server for Heroku deployment. Needed for Procfile.
 server = app.server
